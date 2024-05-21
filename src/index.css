@@ -1,0 +1,174 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Header */
+.my-background {
+  position: relative; /* Relative positioning for containing the absolutely positioned images */
+  background-color: #0ba9dd;
+  width: 100vw; /* 100% of the viewport width */
+  height: 50vh; /* 50% of the viewport height */
+  /* box-shadow: 0px 5px 15px rgba(0, 0, 0, 1.2);  Shadow effect */
+  background: linear-gradient(to bottom, #0ba9dd, #ffffff);
+}
+
+.header-image {
+  position: absolute; /* Absolute positioning for the first image */
+  top: 5px; /* Align to the top */
+  left: 5px; /* Align to the left */
+}
+
+.termite-div {
+  position: absolute; /* Absolute positioning for the second div */
+  bottom: -30%; /* Align to the bottom */
+  left: 70%; /* Align to the center horizontally */
+  transform: translateX(-50%); /* Adjust horizontally to the left by half of its own width */
+}
+
+
+.termite-image {
+  /* Adjust image size as needed */
+  width: 400px;
+  height: auto;
+}
+
+
+
+.container {
+  width: 30%;
+  margin-left: 20px;
+  padding: 20px;
+}
+
+.black {
+  color: #000;
+}
+
+.grey {
+  color: #666;
+}
+
+.font {
+  font-family: Arial, sans-serif;
+}
+
+.large {
+  font-size: 24px; /* Adjust font size as needed */
+}
+
+.service {
+  margin-top: 5px;
+  color: #0ba9dd;
+  text-decoration: underline;
+}
+
+.service-container {
+  margin-top: 20px;
+}
+
+.story {
+  margin-bottom: 10px;
+}
+
+.button-container {
+  text-align: left;
+  margin-top: 20px;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #0ba9dd;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #6DA6BE;
+  cursor: pointer;
+}
+
+
+/* Header Container on the Client Details page */
+
+/* Header.css */
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0ba9dd;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.logo-image {
+  max-width: 200px;
+  height: auto;
+}
+
+p {
+  color: #fff; /* White text color */
+}
+
+span {
+  font-weight: bold; /* Bold font weight */
+}
+
+
+
+/* Form Design */
+/* FormStyles.css */
+
+/* FormStyles.css */
+
+.form-container {
+  width: 300px;
+  margin: 20px auto;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button[type="submit"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #0ba9dd;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+  background-color: #096e8a;
+}
+

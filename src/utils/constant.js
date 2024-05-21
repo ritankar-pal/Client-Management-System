@@ -1,0 +1,1 @@
+export const masterGender = ["male", "female", "other"];
